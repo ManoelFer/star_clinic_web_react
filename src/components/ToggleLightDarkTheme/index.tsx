@@ -16,8 +16,8 @@ export const ToggleLightDarkTheme = () => {
                 id="checkbox"
                 defaultChecked={isDarkMode}
                 onClick={(e) => {
-                    {/* @ts-ignore */ }
-                    changeThemeMode(e.target.checked)
+                    const target = e.target as HTMLInputElement
+                    changeThemeMode(target.checked)
                 }
                 }
             />

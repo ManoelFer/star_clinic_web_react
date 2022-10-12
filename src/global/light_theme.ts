@@ -11,7 +11,12 @@ export const lightTheme = {
         backgroundInputColor: "#EAF0F7",
         lineSocialMediaColor: "#DFDFDF",
         textSocialMediaColor: "#ACADAC",
-        backgroundColorSocialMediaButton: "#DDDFDD"
+        backgroundColorSocialMediaButton: "#DDDFDD",
+
+        toggleColorMoon: "#f1c40f",
+        toggleColorSun: "#f39c12",
+        toggleColorBall: "#fff",
+        toggleColorBackground: "#111",
     },
     fonts: ["Gilroy-Light", "Gilroy-ExtraBold"],
     fontSizes: {

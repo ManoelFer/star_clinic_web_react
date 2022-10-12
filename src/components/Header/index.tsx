@@ -1,11 +1,22 @@
 import { ToggleLightDarkTheme } from "../ToggleLightDarkTheme"
 
-export const Header = () => {
+import { ButtonRegister, HeaderContainer, LeftActionsHeader, RightActionsHeader } from "./styles"
 
+export const Header = () => {
   return (
-    <header>
-      <ToggleLightDarkTheme />
-    </header>
+    <HeaderContainer>
+      <LeftActionsHeader>
+        Star Clinic
+      </LeftActionsHeader>
+
+
+      <RightActionsHeader>
+        <ToggleLightDarkTheme />
+        <a>Sign in</a>
+        <ButtonRegister>Register</ButtonRegister>
+      </RightActionsHeader>
+
+    </HeaderContainer>
   )
 }
 

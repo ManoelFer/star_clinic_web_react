@@ -11,7 +11,12 @@ export const darkTheme = {
         backgroundInputColor: "#EAF0F7",
         lineSocialMediaColor: "#DFDFDF",
         textSocialMediaColor: "#FFFFFF",
-        backgroundColorSocialMediaButton: "#FFFFFF"
+        backgroundColorSocialMediaButton: "#FFFFFF",
+
+        toggleColorMoon: "#f1c40f",
+        toggleColorSun: "#f39c12",
+        toggleColorBall: "#fff",
+        toggleColorBackground: "#111",
     },
     fonts: ["Gilroy-Light", "Gilroy-ExtraBold"],
     fontSizes: {

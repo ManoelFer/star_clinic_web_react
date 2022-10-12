@@ -9,3 +9,15 @@ export { GilroyExtraBold, GilroyLight }
 /**
  * ============ FONTS =================================================
  */
+
+
+/**
+ * ============ IMAGES =================================================
+ */
+
+import manFallingImg from '@/assets/Img/man_falling.png'
+
+export { manFallingImg }
+ /**
+* ============ IMAGES =================================================
+*/

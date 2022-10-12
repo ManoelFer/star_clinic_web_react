@@ -14,7 +14,12 @@ declare module 'styled-components' {
             backgroundInputColor: string,
             lineSocialMediaColor: string,
             textSocialMediaColor: string,
-            backgroundColorSocialMediaButton: string
+            backgroundColorSocialMediaButton: string,
+
+            toggleColorMoon: string,
+            toggleColorSun: string,
+            toggleColorBall: string,
+            toggleColorBackground: string
         },
         fonts: string[],
         fontSizes: {

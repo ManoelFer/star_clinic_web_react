@@ -8,13 +8,13 @@ interface ICheckedToggle {
 }
 
 export const Container = styled.div`
-
 `
+
 export const MoonIcon = styled(FaMoon)`
-    color: #f1c40f;
+    color: ${({ theme }) => theme.colors.toggleColorMoon};
 `
 export const SunIcon = styled(FaSun)`
-    color: #f39c12;
+    color: ${({ theme }) => theme.colors.toggleColorSun};
 `
 
 export const Input = styled.input`
@@ -23,7 +23,7 @@ export const Input = styled.input`
 `
 
 export const Ball = styled.div<ICheckedToggle>`
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.colors.toggleColorBall};
     height: 22px;
     width: 22px;
     position: absolute;
@@ -41,11 +41,12 @@ export const Ball = styled.div<ICheckedToggle>`
 
 
 export const Label = styled.label`
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    background-color: #111;
+    background-color: ${({ theme }) => theme.colors.toggleColorBackground};
     position: relative;
     width: 50px;
     height: 26px;

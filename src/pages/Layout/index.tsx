@@ -2,11 +2,13 @@ import { Header } from '@/components'
 
 import { ILayoutProps } from './interfaces'
 
+import { Container } from './styles'
+
 export const Layout = ({ children }: ILayoutProps) => {
     return (
-        <div>
+        <Container>
             <Header />
             {children}
-        </div>
+        </Container>
     )
 }
