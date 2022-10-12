@@ -1,7 +1,7 @@
-export const lightTheme = {
+export const darkTheme = {
     colors: {
-        backgroundColor: "#F6F6F6",
-        titleAndTextColor: "#000000",
+        backgroundColor: "#14162E",
+        titleAndTextColor: "#FFFFFF",
         linkAndButtonColor: "#4461F2",
         backgroundButtonRegister: "#FFFFFF",
 
@@ -10,8 +10,8 @@ export const lightTheme = {
         iconInputColor: "#667085",
         backgroundInputColor: "#EAF0F7",
         lineSocialMediaColor: "#DFDFDF",
-        textSocialMediaColor: "#ACADAC",
-        backgroundColorSocialMediaButton: "#DDDFDD"
+        textSocialMediaColor: "#FFFFFF",
+        backgroundColorSocialMediaButton: "#FFFFFF"
     },
     fonts: ["Gilroy-Light", "Gilroy-ExtraBold"],
     fontSizes: {
