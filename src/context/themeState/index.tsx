@@ -10,11 +10,23 @@ export function ThemeContextProvider({
 }: IThemeContextProviderProps): JSX.Element {
     const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem('dark-mode') ? true : false)
 
+    const changeThemeMode = (isDark: boolean) => {
+        if (!isDark) {
+            setIsDarkMode(false)
+            localStorage.removeItem('dark-mode')
+        }
+        else {
+            setIsDarkMode(true)
+            localStorage.setItem('dark-mode', "true")
+        }
+    }
+
     return (
         <ThemeContext.Provider
             value={{
                 isDarkMode,
-                setIsDarkMode
+                setIsDarkMode,
+                changeThemeMode
             }}
         >
             {children}

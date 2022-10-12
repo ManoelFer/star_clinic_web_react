@@ -1,13 +1,10 @@
-import useCustomHook from "./useCustomHook"
-
+import { ToggleLightDarkTheme } from "../ToggleLightDarkTheme"
 
 export const Header = () => {
-  const { changeThemeMode } = useCustomHook()
-
 
   return (
     <header>
-      <button onClick={changeThemeMode}>muda tema</button>
+      <ToggleLightDarkTheme />
     </header>
   )
 }

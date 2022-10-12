@@ -18,6 +18,10 @@ export const GlobalStyle = createGlobalStyle`
         font-style: normal;
     }
 
+    *{
+        box-sizing: border-box;
+    }
+
     #root {
         max-width: 1280px;
         margin: 0 auto;
@@ -31,7 +35,10 @@ export const GlobalStyle = createGlobalStyle`
         place-items: center;
         min-width: 320px;
         min-height: 100vh;
-        background-color: ${(props) => props.theme.colors.backgroundColor}
+        background-color: ${(props) => props.theme.colors.backgroundColor};
+        -webkit-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
     }
 
     h1 {
