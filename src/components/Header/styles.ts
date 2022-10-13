@@ -6,8 +6,8 @@ export const HeaderContainer = styled.header`
     position: fixed;
 
     width: 100%;
-    max-width: 1280px;
-    padding: 100px 100px;
+    max-width: 1320px;
+    padding: 2vw 2vw;
 
     display: flex;
     justify-content: space-between;
