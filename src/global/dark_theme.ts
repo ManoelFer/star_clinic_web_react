@@ -17,6 +17,9 @@ export const darkTheme = {
         toggleColorSun: "#f39c12",
         toggleColorBall: "#fff",
         toggleColorBackground: "#111",
+
+        ballOfLightYellow: "#DDA82A",
+        ballOfLightBlue: "#4461F2",
     },
     fonts: ["Gilroy-Light", "Gilroy-ExtraBold"],
     fontSizes: {

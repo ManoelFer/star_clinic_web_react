@@ -19,7 +19,10 @@ declare module 'styled-components' {
             toggleColorMoon: string,
             toggleColorSun: string,
             toggleColorBall: string,
-            toggleColorBackground: string
+            toggleColorBackground: string,
+
+            ballOfLightYellow: string,
+            ballOfLightBlue: string,
         },
         fonts: string[],
         fontSizes: {

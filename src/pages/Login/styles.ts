@@ -34,5 +34,43 @@ export const ContainerImg = styled.div`
 `
 export const ContainerForm = styled.div`
     width: 100%;
-    
 `
+
+export const BallOfLightYellow = styled.div`
+    position: absolute;
+    z-index: -1;
+    top: 22%;
+    left: 16%;
+    filter: blur(100px);
+    opacity: 0.25;
+
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+
+    border-radius: 50%;
+    background-color: ${({ theme }) => theme.colors.ballOfLightYellow}; 
+    box-shadow: ${({ theme }) => theme.colors.ballOfLightYellow} 0px 30px 1vw 6vw;
+`
+
+export const BallOfLightBlue = styled.div`
+    position: absolute;
+    z-index: -1;
+    right: 65%;
+    top: 60%;
+    filter: blur(100px);
+    opacity: 0.2;
+
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+
+    border-radius: 50%;
+    background-color: ${({ theme }) => theme.colors.ballOfLightBlue}; 
+    box-shadow: ${({ theme }) => theme.colors.ballOfLightBlue} 0px 30px 1vw 4vw;
+`
+
+
+
